@@ -11,6 +11,7 @@ class KubernetesCliAT1143 < Formula
   end
 
   bottle do
+    root_url "https://homebrew.bintray.com/bottles"
     cellar :any_skip_relocation
     sha256 "2208a11ae220bb36d9c7bd233f265608bd80dc599464980ba2719376818cdf74" => :mojave
     sha256 "8a4036b63954c32d5301b3d764092fec405a4073acb0bbbd2a94c1cbaafdb760" => :high_sierra
