@@ -6,6 +6,10 @@ class KubernetesCliAT1143 < Formula
       :revision => "5e53fd6bc17c0dec8434817e69b04a25d8ae0ff0"
   head "https://github.com/kubernetes/kubernetes.git"
 
+  def name
+    "kubernetes-cli"
+  end
+
   bottle do
     cellar :any_skip_relocation
     sha256 "2208a11ae220bb36d9c7bd233f265608bd80dc599464980ba2719376818cdf74" => :mojave

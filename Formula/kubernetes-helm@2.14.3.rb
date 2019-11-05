@@ -6,6 +6,10 @@ class KubernetesHelmAT2143 < Formula
       :revision => "0e7f3b6637f7af8fcfddb3d2941fcc7cbebb0085"
   head "https://github.com/helm/helm.git"
 
+  def name
+    "kubernetes-helm"
+  end
+
   bottle do
     cellar :any_skip_relocation
     sha256 "4745dd0bc615ecb4ed1ab0cf0a2bedc91e8fc6d468d9bdf253f741e2ab4d06ab" => :catalina
